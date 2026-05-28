@@ -4,7 +4,7 @@ import PizzaScreen from './components/PizzaScreen';
 import PastaScreen from './components/PastaScreen';
 import DrinksScreen from './components/DrinksScreen';
 import CartScreen from './components/CartScreen';
-import './App.css'; // Make sure your combined CSS is imported here
+import './App.css';
 
 function App() {
   const [view, setView] = useState('home');
